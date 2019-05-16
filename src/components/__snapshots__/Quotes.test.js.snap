@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes component renders a list of quotes 1`] = `<ul />`;
