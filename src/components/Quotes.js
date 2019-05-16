@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Quote from './Quote';
 
 function Quotes({ quoteArray }) {
-  const quotes = quoteArray.map(quote => {
-    <li key={quote}>
+  const quotes = quoteArray.map((quote, i) => (
+    <li key={i}>
       <Quote quote={quote}/>
-    </li>;
-  });
+    </li>
+  ));
 
   return (
     <ul>

@@ -39,7 +39,7 @@ export default class TopQuotes extends PureComponent {
       return <Loading />;
     } else 
     {
-      return <Quotes quotesArray={quotes}/>;
+      return <Quotes quoteArray={quotes}/>;
     }
   }
 }
