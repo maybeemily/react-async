@@ -4,6 +4,7 @@ exports[`Paging component renders the paging 1`] = `
 <Fragment>
   1 / 10
   <button
+    className="Paging"
     onClick={[Function]}
   >
     Next Page

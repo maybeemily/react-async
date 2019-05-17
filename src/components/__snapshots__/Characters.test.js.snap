@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Characters component test renders characters 1`] = `
-<ul>
+<ul
+  className="Characters"
+>
   <li
     key="0"
   >

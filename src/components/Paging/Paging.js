@@ -1,14 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import styles from './Paging.css';
 
 function Paging({ currentPage, totalPages, nextPage, children }) {
   return (
     <>
     {currentPage > 1 && 
-      <button onClick={() => nextPage(currentPage - 1)}>PreviousPage</button>}
+      <button className={styles.Paging} onClick={() => nextPage(currentPage - 1)}>PreviousPage</button>}
       {`${currentPage} / ${totalPages}`}
       {currentPage < totalPages && 
-      <button onClick={() => nextPage(currentPage + 1)}>Next Page</button>}
+      <button className={styles.Paging} onClick={() => nextPage(currentPage + 1)}>Next Page</button>}
       {children}
       </>
   );
