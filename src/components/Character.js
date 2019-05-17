@@ -2,7 +2,12 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 function Character({ character }) {
-  const { name, status, species, image } = character;
+  const { 
+    name, 
+    status, 
+    species, 
+    image } = character;
+    
   return (
     <section>
       <ul>
