@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Character from './Character';
 
 function Characters({ characters }) {
-  const characterList = characters.map((character, i) => {
+  const characterList = characters.map((character, i) => (
     <li key={i}>
       <Character character={character}/>
-    </li>;
-  });
+    </li>
+  ));
 
   return (
     <ul>
