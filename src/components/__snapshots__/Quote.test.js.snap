@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote component renders the quote 1`] = `
+<section>
+  <img
+    src="/path"
+  />
+  <p>
+    Leela
+  </p>
+  <p>
+    Awww
+  </p>
+</section>
+`;
